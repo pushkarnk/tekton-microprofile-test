@@ -8,7 +8,7 @@ spec:
       revisionTemplate:
         spec:
           container:
-            image: dev.local/appsody-build-test
+            image: pushkarnk/docker-test 
             imagePullPolicy: IfNotPresent
             ports:
             - containerPort: 9080 
